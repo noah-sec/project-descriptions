@@ -10,9 +10,7 @@
 <!-- IMPACT -->
 ### Business Impact
 
-<p>Cyber deception has three unique security impacts to an organization compared to other categories of security tools. Firstly, cyber deception tools and techniques can reduce the time it takes to detect and respond to an incident. Secondly, these tools and techniques can detect threats that usually get lost in heaps of logs and metrics. Thirdly, these tools allow the organization to build real-time threat intelligence that is specific to it's own context.</p>
-
-<br>
+<p>Cyber deception has three unique security impacts to an organization compared to other categories of security tools. Firstly, cyber deception tools and techniques can reduce the time it takes to detect and respond to an incident. Secondly, these tools and techniques can detect threats that usually get lost in heaps of logs and metrics. Thirdly, these tools allow the organization to build real-time threat intelligence that is specific to it's own context.</p><br>
 
 <!-- ARCHITECTURE -->
 ### Technical Architecture
