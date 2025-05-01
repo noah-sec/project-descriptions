@@ -14,6 +14,11 @@
 
 <br>
 
+<!-- ARCHITECTURE -->
+### Technical Architecture
+
+<p>This project is currently under construction.</p><br>
+
 <!-- IMPLEMENTATION -->
 ### Technical Implementation
 
