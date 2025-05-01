@@ -10,9 +10,12 @@
 <!-- IMPACT -->
 ### Business Impact
 
-<p>Active Directory Domain Services is one of the primary tools for securing windows systems based on identity. Security testing of an organization's AD DS setup allows it to find gaps in one of the most sensitive areas of its IT infrastructure.</p>
+<p>Active Directory Domain Services is one of the primary tools for securing windows systems based on identity. Security testing of an organization's AD DS setup allows it to find gaps in one of the most sensitive areas of its IT infrastructure.</p><br>
 
-<br>
+<!-- ARCHITECTURE -->
+### Technical Architecture
+
+<p>This project is currently under construction.</p><br>
 
 <!-- IMPLEMENTATION -->
 ### Technical Implementation
