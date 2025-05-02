@@ -12,7 +12,7 @@
 
 <p>Physical network infrastructure has to be installed and configured correctly in order for devices to have secure local network and internet access. Physical network infrastructure can be expensive to install and configure, requiring specialized devices and networking expertise. More complicated deployments require a network architect to design the local and wide area networks. 
 <br><br>
-The microsegmented physical plane of this network is set up to allow outbound connections to the internet, but each device has its host-based firewall set to deny inbound connections. This prevents inbound connections on all devices. Connections between devices and to hosted services are controlled by a software-defined networking plane - Tailscale. This allows these connections to have additional access controls based on identity, location, and device posture. The result of this combined setup allows granular enforcement of access policies in an isolated intranet.</p><br>
+The microsegmented physical plane of this network is set up to allow outbound connections to the internet, but each device has its host-based firewall set to deny inbound connections. This prevents inbound connections on all devices. Connections between devices and to hosted services are controlled by a software-defined networking plane. This allows these connections to have additional access controls based on identity, location, and device posture. The result of this combined setup allows granular enforcement of access policies in an isolated intranet.</p><br>
 
 <!-- ARCHITECTURE -->
 ### Technical Architecture
