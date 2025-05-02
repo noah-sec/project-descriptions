@@ -39,7 +39,7 @@ Further details of this investigation and report are confidential due to a Non-D
 <!-- REFERENCES -->
 ### References
 
-<p>This project also includes a separate writeup about the <a href="">social engineering</a> aspects of the investigation.
+<p>This project also includes a separate writeup about the <a href="https://github.com/noah-sec/projects/blob/main/social.md">social engineering</a> aspect of the investigation.
 <p>This project was completed as part of the <a href="https://certifications.tcm-sec.com/porp/">Practical OSINT Researcher Professional (PORP)</a> certification.</p>
 
 <!-- ANIMATED BOTTOM BANNER -->
