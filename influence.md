@@ -10,21 +10,24 @@
 <!-- IMPACT -->
 ### Business Impact
 
-<p>    
+<p>Cyber influence is the use of cyber tools and techniques to influence the behavior of individuals and groups of individuals, and also to influence the behavior of people to achieve cyber effects. Cyber influence is sometimes helpful to the user experience (UX), where product design can influence and improve user interaction through slight behavioral modification. Cyber influence is also used in advertising and commerce, where behavioral techniques are used to nudge consumers toward specific purchase decisions. 
 <br><br>
+The most potent form of cyber influence is achieved by international corporations, specialized firms, and nation state actors as they conduct military and intelligence influence operations to sway populations. Information operations are a type of cyber influence activity that use both true and false information to achieve cyber effects. Interactive internet activities specifically use social media to support or deny the spread of narratives and sentiment. Organizations can have varying levels of threat tolerance to targeted disinformation and malinformation, with certain sectors being especially sensitive to cyber influence.
+<br><br>
+This project analyzed over a dozen examples of media artifact, and comprehensively deconstructed potential biases and political objectives. It also involved developing a methodology for systematically checking sources of information for factual basis.
 </p><br>
 
 <!-- ARCHITECTURE -->
 ### Technical Architecture
 
-<p></p><br>
+<p>The project was setup to analyze a collection of media artifacts chosen in a controlled setting by a leading international NGO that specializes in counter-disinformation. Industry-standard methodology used by international journalists to counter hostile nation state information operations was practiced and demonstrated on the collection of artifacts.</p><br>
 
-<!-- IMPLEMENTATION -->
+<!-- IMPLEMENTATION 
 ### Technical Implementation
 
 <p>  
 <br><br>
-</p><br>
+</p><br>-->
 
 <!-- TESTING 
 ### Testing and Validation-->
