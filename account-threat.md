@@ -5,7 +5,7 @@
 <h1 align=center>Secure & Private Accounts & Communications <br>for High-Risk Operations</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Developed a communications, accounts, and devices strategy for a high risk scenario. Used privacy and anonymity techniques around SMS messaging, email messaging, account privacy, payment and transaction privacy, encrypted hidden partitions using VeraCrypt, and browser anonymity.</i></p>
+<p align=center><i>Developed a communications, accounts, and devices strategy for a high risk scenario. Used privacy and anonymity techniques <br>around SMS messaging, email messaging, account privacy, payment and transaction privacy, <br>encrypted hidden partitions using VeraCrypt, and browser anonymity.</i></p>
 
 <hr><br>
 
