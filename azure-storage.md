@@ -36,7 +36,7 @@
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This project was completed as part of the <a href="https://learn.microsoft.com/en-us/credentials/applied-skills/secure-storage-azure-files-azure-blob-storage/">AZ-1003</a> Applied Skills credential from Microsoft.</p>
+<p>This project was completed as part of the <a href="https://learn.microsoft.com/en-us/credentials/applied-skills/secure-storage-azure-files-azure-blob-storage/">AZ-1003</a> Applied Skills credential from Microsoft.</p><br>
 
 <hr>
 
