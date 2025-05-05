@@ -36,7 +36,7 @@
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This project is being completed as part of the <a href="https://certifications.tcm-sec.com/pnpt/">Practical Network Penetration Tester (PNPT)</a> certification and the <a href="https://cyberwarfare.live/product/red-team-analyst-crta/">Certified Red Team Analyst (CRTA)</a> certification.</p><br>
+<p>This project is being completed as part of the <a href="https://certifications.tcm-sec.com/pnpt/">Practical Network Penetration Tester (PNPT)</a> certification from TCM Security and the <a href="https://cyberwarfare.live/product/red-team-analyst-crta/">Certified Red Team Analyst (CRTA)</a> certification from CyberWarfare Labs.</p><br>
 
 <hr>
 
