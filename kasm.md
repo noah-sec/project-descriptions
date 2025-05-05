@@ -5,7 +5,7 @@
 <h1 align=center>Remote, Emphemeral, & Isolated Execution Environments for Desktop, Browser, & Email</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Deployed server infrastructure for remotely streaming desktop, browser, and email environments to a client web browser. These environments are containerized for isolation and security, and are wiped completely after each session.</i></p>
+<p align=center><i>Deployed server infrastructure for remotely streaming desktop, browser, and email environments to a client web browser. These <br>environments are containerized for isolation and security, and are wiped completely after each session.</i></p>
 
 <hr><br>
 
