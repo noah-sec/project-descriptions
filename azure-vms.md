@@ -5,7 +5,7 @@
 <h1 align=center>Deploy & Administer Linux Virtual Machines on Microsoft Azure</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Created and configured a Linux VM, configured monitoring and backup of Linux VMs, scaled Linux VMs vertically, configured identities and roles for Linux VMs, and accessed Azure Storage from a Linux VM.</i></p>
+<p align=center><i>Created and configured a Linux VM, configured monitoring and backup of Linux VMs, scaled Linux VMs vertically, <br>configured identities and roles for Linux VMs, and accessed Azure Storage from a Linux VM.</i></p>
 
 <hr><br>
 
