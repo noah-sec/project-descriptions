@@ -38,7 +38,7 @@ With this cyber deception deployment of honeypots and decoys, stakeholders can b
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This project was completed as part of the <a href="https://www.antisyphontraining.com/course/active-defense-and-cyber-deception-with-john-strand/">Active Defense and Cyber Deception with John Strand</a> course.</p><br>
+<p>This project was completed as part of the <a href="https://www.antisyphontraining.com/course/active-defense-and-cyber-deception-with-john-strand/">Active Defense and Cyber Deception with John Strand</a> course from Antisyphon Training.</p><br>
 
 <hr>
 
