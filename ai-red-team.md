@@ -5,7 +5,7 @@
 <h1 align=center>AI-Enhanced Offensive Security Assessment of AI Systems</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Developed a project management report for the initiation and conclusion of a red team assessment. Used AI-enhanced tools and techniques for the red team assessment, and also tested against infrastructure that included AI systems.</i></p>
+<p align=center><i>Developed a project management report for the initiation and conclusion of a red team assessment. Used AI-enhanced <br>tools and techniques for the red team assessment, and also tested against infrastructure that included AI systems. <br>Used the MITRE ATT&CK framework and the Lockheed Martin Cyber Kill Chain.</i></p>
 
 <hr><br>
 
