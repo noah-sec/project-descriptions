@@ -18,12 +18,12 @@ Command-and-control (C2) is a quintessential concept for leadership in critical 
 </b></p><br>
 
 <!-- ARCHITECTURE -->
-### Technical Architecture:
+<h3><b>Technical Architecture:</b></h3>
 
 <p>This project documentation is currently under construction.</p><br>
 
 <!-- IMPLEMENTATION -->
-### Technical Implementation:
+<h3><b>Technical Implementation:</b></h3>
 
 <p>This project documentation is currently under construction.</p><br>
 
@@ -37,7 +37,7 @@ Command-and-control (C2) is a quintessential concept for leadership in critical 
 ### Future Improvements-->
 
 <!-- REFERENCES -->
-### References:
+<h3><b>References:</b></h3>
 
 <p>This project is being completed as part of the <a href="https://cyberwarfare.live/product/red-team-infra-developer/">Certified Red Team Infrastructure Developer (CRT-ID)</a> certification.</p>
 
