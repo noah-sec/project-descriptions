@@ -5,7 +5,7 @@
 <h1 align=center>Secure Storage for Azure Files & Azure Blob Storage</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Created and configured a storage account, created and configured Blob Storage, created and configured Azure Files, configured encryption, and configured networking for storage.</i></p>
+<p align=center><i>Created and configured a storage account, created and configured Blob Storage, created and configured Azure Files, <br>configured encryption, and configured networking for storage.</i></p>
 
 <hr><br>
 
