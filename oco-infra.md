@@ -23,7 +23,7 @@ Command-and-control (C2) is a quintessential concept for leadership in critical 
 <!-- IMPLEMENTATION -->
 ### Technical Implementation
 
-<p>This project documentation is currently under construction.</p>
+<p>This project documentation is currently under construction.</p><br>
 
 <!-- TESTING 
 ### Testing and Validation-->
