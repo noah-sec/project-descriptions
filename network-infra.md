@@ -36,7 +36,7 @@
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This was the capstone project for the <a href="https://www.wgu.edu/online-it-degrees/cybersecurity-information-assurance-masters-program.html">Master of Science, Cybersecurity and Information Assurance</a> degree from Western Governors University.</p>
+<p>This was the capstone project for the <a href="https://www.wgu.edu/online-it-degrees/cybersecurity-information-assurance-masters-program.html">Master of Science, Cybersecurity and Information Assurance</a> degree from Western Governors University.</p><br>
 
 <hr>
 
