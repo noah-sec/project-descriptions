@@ -1,5 +1,5 @@
 <!-- TITLE -->
-<h1 align=center>Physical Network Deployment with Firewalls, Subnets, & VLANs</h1>
+<h1 align=center>Physical Network Deployment with Firewalls & Microsegmentation</h1>
 
 <!-- INTRODUCTION -->
 <br><p align=center><i>Deployed physical network infrastructure for MAC address and IP address routing within the LAN, including modem, firewall, router, DHCP, DNS, access point, switch, ethernet cables, and microsegmentation.</i></p><br>
