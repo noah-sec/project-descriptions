@@ -2,7 +2,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=header" alt="header"/>
 
 <!-- TITLE -->
-<h1 align=center>Web Security Assessment & Threat Consultation</h1>
+<h1 align=center>Web Security & Threat Assessment</h1>
 
 <!-- INTRODUCTION -->
 <p align=center><i>Performed a security assessment of a web developer's personal website and a threat consultation of their digital footprint. <br>This was a group effort from a four-person security consultant team.</i></p>
