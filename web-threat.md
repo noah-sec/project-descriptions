@@ -36,7 +36,7 @@
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This project was completed as part of an internship as an Offensive Security Engineer.</p>
+<p>This project was completed as part of an internship as an Offensive Security Engineer.</p><br>
 
 <hr>
 
