@@ -28,7 +28,17 @@
 <a href="https://github.com/noah-sec/projects/blob/main/stig2.md">Automated Implementation of STIG WIN</a><br>
 <a href="https://github.com/noah-sec/projects/blob/main/stig3.md">Automated Implementation of STIG WIN</a><br>
 <a href="https://github.com/noah-sec/projects/blob/main/stig4.md">Automated Implementation of STIG WIN</a><br>
-<a href="https://github.com/noah-sec/projects/blob/main/stig5.md">Automated Implementation of STIG WIN</a>
+<a href="https://github.com/noah-sec/projects/blob/main/stig5.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig6.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig7.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig8.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig9.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig10.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig11.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig12.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig13.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig14.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig15.md">Automated Implementation of STIG WIN</a>
 </p><br>
 
 <!-- TESTING 
