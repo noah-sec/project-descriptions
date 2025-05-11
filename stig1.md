@@ -5,7 +5,7 @@
 <h1 align=center>Automated Implementation of STIG WN10-AU-000500</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>k</i></p>
+<p align=center><i>"Inadequate log size will cause the log to fill up quickly. This may prevent audit events from being <br>recorded properly and require frequent attention by administrative personnel." <br>- STIG ID: WN10-AU-000500</i></p>
 
 <hr><br>
 
