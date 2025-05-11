@@ -5,7 +5,7 @@
 <h1 align=center>Automated Implementation of STIG WN10-00-000090</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>"Passwords that do not expire increase exposure with a greater probability of being discovered or cracked. " <br>- STIG ID: WN10-00-000090</i></p>
+<p align=center><i>"Passwords that do not expire increase exposure with a greater probability of being discovered or cracked." <br>- STIG ID: WN10-00-000090</i></p>
 
 <hr><br>
 
