@@ -14,7 +14,7 @@
 
 <p>
 "If data at rest is unencrypted, it is vulnerable to disclosure. Even if the operating system enforces permissions on data access, an adversary can remove non-volatile memory and read it directly, thereby circumventing operating system controls. Encrypting the data ensures that confidentiality is protected even when the operating system is not running. Pre-boot authentication prevents unauthorized users from accessing encrypted drives." - STIG ID: WN10-00-000031
-</p>
+</p><br>
 
 
 <!-- IMPLEMENTATION -->
