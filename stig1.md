@@ -22,7 +22,21 @@
 4. Developed a <a href="https://github.com/noah-sec/powershell-toolbox/blob/main/stig1.ps1">PowerShell script</a> to automatically implement the STIG fix.<br>
   
 ```powershell
-Invoke-RestMethod
+# Defining the registry path and registry value:
+$registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
+$valueName = "MaxSize"
+$valueData = 32768
+
+# Checking for registry path, if none then creating path:
+if (-not (Test-Path $registryPath)) {
+    New-Item -Path $registryPath -Force
+}
+
+# Setting value:
+Set-ItemProperty -Path $registryPath -Name $valueName -Value $valueData -Type DWord
+
+# Setting output message:
+Write-Host "Registry value '$valueName' set to '$valueData' at '$registryPath'."
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
