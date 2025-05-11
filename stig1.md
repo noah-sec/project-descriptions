@@ -59,7 +59,7 @@ Write-Host "Registry value '$valueName' set to '$valueData' at '$registryPath'."
 
 <hr>
 
-<div align=center><a href="https://github.com/noah-sec">Return to STIG project activities</a></div><br>
+<div align=center><a href="https://github.com/noah-sec/projects/blob/main/vuln.md">Return to STIG project activities</a></div><br>
 <div align=center><a href="https://github.com/noah-sec">Return to main projects page</a></div>
 
 <!-- ANIMATED BOTTOM BANNER -->
