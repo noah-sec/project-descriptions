@@ -32,7 +32,7 @@
   
 ```powershell
 #Requires -RunAsAdministrator
-& auditpol.exe /set /subcategory:"Account Lockout" /failure:enable
+AuditPol /set /subcategory:"Account Lockout" /failure:enable
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
