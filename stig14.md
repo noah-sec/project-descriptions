@@ -50,7 +50,7 @@
 <!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>Project code: <a href="https://github.com/noah-sec/powershell-toolbox/blob/main/stig13.ps1">stig13.ps1</a></p>
+<p>Project code: <a href="https://github.com/noah-sec/powershell-toolbox/blob/main/stig14.ps1">stig14.ps1</a></p>
 <p>This project was completed as part of an internship as a Cybersecurity Support Engineer.</p><br>
 
 <hr>
