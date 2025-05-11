@@ -32,7 +32,7 @@
   
 ```powershell
 #Requires -RunAsAdministrator
-& auditpol.exe /set /subcategory:"Process Creation" /success:enable
+AuditPol /set /subcategory:"Process Creation" /success:enable
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
