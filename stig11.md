@@ -31,12 +31,7 @@
   
 ```powershell
 #Requires -RunAsAdministrator
-
-# Setting the reset account lockout counter:
 net accounts /lockoutwindow:15
-
-# Checking current setting:
-net accounts
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
