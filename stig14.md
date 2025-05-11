@@ -32,7 +32,7 @@
   
 ```powershell
 #Requires -RunAsAdministrator
-& auditpol.exe /set /subcategory:"Credential Validation" /Failure:enable
+AuditPol /set /subcategory:"Credential Validation" /failure:enable
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
