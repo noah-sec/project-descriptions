@@ -22,14 +22,8 @@
 4. Developed a <a href="https://github.com/noah-sec/powershell-toolbox/blob/main/stig2.ps1">PowerShell script</a> to automatically implement the STIG fix.<br>
   
 ```powershell
-# Setting max password age (in days):
-$maxPasswordAgeDays = 90
-
-net accounts /maxpwage:$maxPasswordAgeDays
-Write-Host "Maximum password age for local accounts set to $maxPasswordAgeDays days."
-
-# To view current settings:
-net accounts
+#Requires -RunAsAdministrator
+net accounts /maxpwage:90
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
