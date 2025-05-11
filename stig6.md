@@ -2,7 +2,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=header" alt="header"/>
 
 <!-- TITLE -->
-<h1 align=center>Automated Implementation of STIG WN10-00-000107</h1>
+<h1 align=center>Automated Implementation of STIG WN10-00-000145</h1>
 
 <!-- INTRODUCTION -->
 <p align=center><i>"Data Execution Prevention (DEP) must be configured to at least OptOut." <br>- STIG ID: WN10-00-000145</i></p>
