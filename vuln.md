@@ -25,7 +25,7 @@
 <p>
 
 <a href="https://github.com/noah-sec/projects/blob/main/stig1.md">Automated Implementation of STIG WN10-AU-000500</a><br>
-<a href="https://github.com/noah-sec/projects/blob/main/stig2.md">Automated Implementation of STIG WIN</a><br>
+<a href="https://github.com/noah-sec/projects/blob/main/stig2.md">Automated Implementation of STIG WN10-00-000090</a><br>
 <a href="https://github.com/noah-sec/projects/blob/main/stig3.md">Automated Implementation of STIG WIN</a><br>
 <a href="https://github.com/noah-sec/projects/blob/main/stig4.md">Automated Implementation of STIG WIN</a><br>
 <a href="https://github.com/noah-sec/projects/blob/main/stig5.md">Automated Implementation of STIG WIN</a><br>
