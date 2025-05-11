@@ -13,7 +13,7 @@
 <h3><b>Business Impact:</b></h3>
 
 <p>
-"Windows PowerShell 5.0 added advanced logging features which can provide additional detail when malware has been run on a system. Disabling the Windows PowerShell 2.0 mitigates against a downgrade attack that evades the Windows PowerShell 5.0 script block logging feature. " - STIG ID: WN10-00-000155
+"Windows PowerShell 5.0 added advanced logging features which can provide additional detail when malware has been run on a system. Disabling the Windows PowerShell 2.0 mitigates against a downgrade attack that evades the Windows PowerShell 5.0 script block logging feature." - STIG ID: WN10-00-000155
 </p><br>
 
 
