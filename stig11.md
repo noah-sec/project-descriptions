@@ -32,7 +32,7 @@
 ```powershell
 #Requires -RunAsAdministrator
 
-# Setting the reset account lockout counter after:
+# Setting the reset account lockout counter:
 net accounts /lockoutwindow:15
 
 # Checking current setting:
