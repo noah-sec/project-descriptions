@@ -31,12 +31,7 @@
   
 ```powershell
 #Requires -RunAsAdministrator
-
-# Setting lockout duration:
 net accounts /lockoutduration:15
-
-# Checking current setting:
-net accounts
 ```
 <br>
 5. Ran the script and tested that the STIG fix was implemented.
