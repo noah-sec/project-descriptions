@@ -5,7 +5,7 @@
 <h1 align=center>Automated Implementation of WN10-AU-000085</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>"Windows 10 must be configured to audit Object Access - Other Object Access Events failures." <br>- STIG ID: WN10-AU-000085</i></p>
+<p align=center><i>"The system must be configured to audit Object Access - Removable Storage failures." <br>- STIG ID: WN10-AU-000085</i></p>
 
 <hr><br>
 
@@ -13,7 +13,7 @@
 <h3><b>Business Impact:</b></h3>
 
 <p>
-"Maintaining an audit trail of system activity logs can help identify configuration errors, troubleshoot service disruptions, and analyze compromises that have occurred, as well as detect attacks. Audit logs are necessary to provide a trail of evidence in case the system or network is compromised. Collecting this data is essential for analyzing the security of information assets and detecting signs of suspicious and unexpected behavior. Auditing for other object access records events related to the management of task scheduler jobs and COM+ objects." 
+"Maintaining an audit trail of system activity logs can help identify configuration errors, troubleshoot service disruptions, and analyze compromises that have occurred, as well as detect attacks. Audit logs are necessary to provide a trail of evidence in case the system or network is compromised. Collecting this data is essential for analyzing the security of information assets and detecting signs of suspicious and unexpected behavior. Auditing object access for removable media records events related to access attempts on file system objects on removable storage devices." 
 <br>- STIG ID: WN10-AU-000085
 </p><br>
 
