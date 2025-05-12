@@ -6,6 +6,7 @@
 
 <!-- INTRODUCTION -->
 <p align=center><i><b>Detection of unauthorized Tailscale installation, file sharing, and file exfiltration.</b></i></p>
+<p align=center><a href="https://github.com/noah-sec/projects/blob/main/threat-scenario.md">Threat Hunt Scenario</a></p>
 
 <hr>
 
