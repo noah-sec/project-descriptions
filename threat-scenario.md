@@ -2,7 +2,7 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=header" alt="header"/>
 
 <!-- TITLE -->
-<h1 align=center>Threat Scenario (File Exfiltration with Tailscale)</h1>
+<h1 align=center>Threat Hunt Scenario (File Exfiltration with Tailscale)</h1>
 
 <!-- INTRODUCTION -->
 <p align=center><i><b>Unauthorized Tailscale installation, file sharing, and file exfiltration.</b></i></p>
