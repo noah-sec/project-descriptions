@@ -190,19 +190,17 @@ The user "windows-admin" on the "noah-windows10" device initiated and completed 
 
 Tailscale usage was confirmed on the endpoint "noah-windows10" by the user "windows-admin". The device was isolated.
 
-<br>
 
 #### 2. Notification:
 
 Tailscale usage was confirmed on the endpoint "noah-windows10" by the user "windows-admin". The user's direct manager was notified.
 
-<br>
 
 #### 2. Detection Engineering:
 
-Created YARA rules to import into Tenable Nessus vulnerability scanner for detection of the `tailscale.exe` process. Detection rules YARA file: <a href="https://github.com/noah-sec/yara-toolbox/blob/main/tailscale.yar">tailscale.yar</a>
+Created YARA rules to import into Tenable Nessus vulnerability scanner for detection of the `tailscale.exe` process. <br>Detection rules YARA file: <a href="https://github.com/noah-sec/yara-toolbox/blob/main/tailscale.yar">tailscale.yar</a>
 
-**Detection Rule:**
+**Detection Rules:**
 
 ```yara
 import "filepath"
@@ -233,7 +231,7 @@ rule Tailscale_Running_Process
         $proc1 = "tailscale.exe" ascii wide
         $proc2 = "tailscaled.exe" ascii wide
     condition:
-        for any $str in ($proc1, $proc2) : ( filepath contains $str or proc.name == $str )
+        for any $str in ($proc1, $proc2) : ( filepath contains $str or proc.name == $str ) // Syntax should be valid in modern YARA implementations.
 }
 ```
 
