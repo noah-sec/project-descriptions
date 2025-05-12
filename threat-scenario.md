@@ -5,7 +5,7 @@
 <h1 align=center>Threat Scenario (File Exfiltration with Tailscale)</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i>Unauthorized Tailscale installation, file sharing, and file exfiltration.</i></p>
+<p align=center><i><b>Unauthorized Tailscale installation, file sharing, and file exfiltration.</b></i></p>
 
 <hr>
 
@@ -41,7 +41,7 @@
 |---------------------|------------------------------------------------------------------------------|
 | **Name**| DeviceNetworkEvents|
 | **Info**|https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicenetworkevents-table|
-| **Purpose**| Used to detect Tailscale network activity, .|
+| **Purpose**| Used to detect Tailscale network activity, especially related to tailscale.exe and port 41641.|
 
 <hr>
 
