@@ -95,8 +95,6 @@
 <p>Tenable Nessus compliance audit scan <a href="https://docs.tenable.com/nessus/Content/Compliance.htm">documentation</a>.</p>
 <p><a href="https://www.disa.mil/~/media/files/disa/news/conference/cif/briefing/ia_stig_scap_and_data_metrics.pdf">Explanation</a> of DISA STIGs, USDOD requirements for implementation of DISA STIGs, and the STIG development cycle.</p>
 <p>Microsoft <a href="https://learn.microsoft.com/en-us/intune/configmgr/apps/deploy-use/create-deploy-scripts">guide</a> to running scripts on endpoints using Configuration Manager in Microsoft Intune.</p>
-<p>This project was completed as part of an internship as a Cloud Security Engineer.</p><br>
-
-<hr>
+<p>This project was completed as part of an internship as a Cloud Security Engineer.</p><hr>
 
 <div align=center><a href="https://github.com/noah-sec">Return to main projects page</a></div>
