@@ -43,7 +43,13 @@
 
 <h3><b>Business Impact:</b></h3>
 
-<p>{org impact, team impact, enterprise cloud impact, iaas impact, enterprise os impact, vm impact, golden image impact, daas impact, enterprise vuln scanner impact, disa stig compliance audit impact, system security hardening impact, powershell automation impact}</p><hr>
+<p>This project enabled an organization to deploy a desktop service for its users where the base desktop image was compliant with defense industry regulations based on information systems security guidelines. Using an enterprise cloud platform enabled the organization to scale resources quickly and efficiently with lower latency across wide geographic service areas, without investing in physical infrastructure. Infrastructure as a service (IaaS) enabled the organization to create virtual resources like servers and networks in the cloud rather than on premises. An enterprise operating system is more functional when integrated into an enterprise internal network.<br>
+
+Using a virtual machine enabled the organization to allocate compute and storage irrespective of physical hardware, and to snapshot and template the underlying operating system and machine. A golden image enabled the organization to create a known secure, compatable, and tested machine state to be used as a base image for other machines to copy as a template. An enterprise vulnerability scanner enabled the organization to assess its assets for configuration or patching issues, and to audit its assets for compliance. DISA STIGs are best practices for securing specific systems, required by some USDOD policies (see DODD 8500.1 and DODD 8500.2) to be implemented in IA-enabled environments. Hardening systems at the endpoint level is a first line of defense that makes initial access and exploitation more difficult for criminals and makes it easier for defenders to detect security events.<br>
+
+Script automation enabled the organization to repeat the same work quickly across many endpoints. The scripts contributed individually were 1/6 of the total team effort for automating the process of creating a compliant golden image as the base for the desktop service. Microsoft Intune enabled the organization to centrally manage and rapidly apply changes to multiple endpoints simultaneously. Configuration Manager, part of Microsoft Intune, enabled the organization to execute configuration automation scripts on endpoints. Desktop as a service (DaaS) enabled the organization to securely deliver a desktop experience to users over the cloud, allowing for both flexibility and standardization of the end user experience (UX). Azure Virtual Desktop enabled the organization to deliver cloud DaaS to users, with virtual desktop images derived from virtual machine snapshots.
+</p>
+<hr>
 
 <h3><b>Technical Implementation:</b></h3>
 
@@ -83,7 +89,7 @@
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-CC-000005.md">Automated Implementation of STIG WN10-CC-000005</a>: <br>Camera access from the lock screen must be disabled.<br>
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-CC-000007.md">Automated Implementation of STIG WN10-CC-000007</a>: <br>Windows 10 must cover or disable the built-in or attached camera when not in use.
 </p>
-<p>5. Executed the scripts on the endpoint with Configuration Manager.</p>
+<p>5. Executed the scripts on the endpoint with Configuration Manager (scripts from team resolved all 180 audit findings).</p>
 <p>6. Saved a snapshot of the virtual machine.</p>
 <p>7. Generalized the virtual machine with sysprep.</p>
 <p>8. Deployed the golden image in Azure Virtual Desktop as a standalone managed image.</p>
