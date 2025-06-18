@@ -45,9 +45,11 @@
 
 <h3><b>Technical Implementation:</b></h3>
 
-<p>Tenable Nessus compliance audit scan findings were remediated by implementing DISA STIGs in Windows 10 Enterprise with PowerShell scripts.</p>
-<p>
-  
+<p>1. A Windows 10 Enterprise virtual machine was created in Azure cloud to be the basis of a golden image for future desktop deployments.</p>
+<p>2. Performed a DISA STIG compliance audit scan on the endpoint with Nessus vulnerabilty scanner.</p>
+<p>3. Reviewed audit scan findings and determined the steps required to implement DISA STIGs.</p>
+<p>4. Developed scripts to automate the implementation of the STIGs from the audit scan findings.
+
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-AU-000500.md">Automated Implementation of STIG WN10-AU-000500</a>: <br>The Application event log size must be configured to 32768 KB or greater.<br>
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-00-000090.md">Automated Implementation of STIG WN10-00-000090</a>: <br>Accounts must be configured to require password expiration.<br>
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-00-000031.md">Automated Implementation of STIG WN10-00-000031</a>: <br>Windows 10 systems must use a BitLocker PIN for pre-boot authentication.<br>
@@ -78,7 +80,12 @@
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-AU-000510.md">Automated Implementation of STIG WN10-AU-000510</a>: <br>The System event log size must be configured to 32768 KB or greater.<br>
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-CC-000005.md">Automated Implementation of STIG WN10-CC-000005</a>: <br>Camera access from the lock screen must be disabled.<br>
 - <a href="https://github.com/noah-sec/project-descriptions/blob/main/WN10-CC-000007.md">Automated Implementation of STIG WN10-CC-000007</a>: <br>Windows 10 must cover or disable the built-in or attached camera when not in use.
-</p><hr>
+</p>
+<p>5. Executed the scripts on the endpoint with Configuration Manager.</p>
+<p>6. Saved a snapshot of the virtual machine.</p>
+<p>7. Generalized the virtual machine with sysprep.</p>
+<p>8. Deployed the golden image virtual machine as a standalone managed image.</p>
+<hr>
 
 <h3><b>References:</b></h3>
 
