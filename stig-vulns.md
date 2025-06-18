@@ -16,7 +16,7 @@
 - <b>Microsoft Intune Configuration Manager</b>: systems deployment and management (for running scripts on managed endpoints)
 
 <i>IaaS: infrastructure-as-a-service</i><br>
-<i>STIG: Security Technical Implementation Guides</i><br>
+<i>STIG: Security Technical Implementation Guide</i><br>
 <i>DISA: Defense Information Systems Agency</i><br>
 <i>USDOD: United States Department of Defense</i><br>
 <i>CLI: command-line interpreter</i>
