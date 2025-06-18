@@ -86,6 +86,3 @@
 <hr>
 
 <div align=center><a href="https://github.com/noah-sec">Return to main projects page</a></div>
-
-<!-- ANIMATED BOTTOM BANNER -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=footer" alt="footer"/>
