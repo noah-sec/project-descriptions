@@ -8,7 +8,7 @@
 
 <p>
   
-- <b>Microsoft Azure</b>: enterprise cloud computing platform (IaaS)
+- <b>Microsoft Azure</b>: enterprise cloud computing platform (for resilient IaaS)
 - <b>Microsoft Windows 10 Enterprise</b>: enterprise virtual machine operating system (for golden image in Azure hypervisor)
 - <b>Tenable Nessus</b>: enterprise vulnerability scanner (for configuration and compliance auditing)
 - <b>STIGs</b>: DISA configuration management guidelines (for USDOD system security regulatory compliance)
