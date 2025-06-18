@@ -2,7 +2,7 @@
 <h1 align=center>Cloud Endpoint Security Management, Compliance, <br>Hardening, and Automation</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><b><i>Developed a Microsoft Windows 10 Enterprise virtual machine endpoint "golden image" in Microsoft Azure cloud platform. Ran DISA STIG compliance audit scan with Tenable Nessus vulnerability scanner. Automated implementation of audit findings with PowerShell scripts.</i></b></p><hr>
+<p align=center><b><i>Developed a Microsoft Windows 10 Enterprise virtual machine endpoint golden image in Microsoft Azure cloud platform. Ran DISA STIG compliance audit scan with Tenable Nessus vulnerability scanner. Automated implementation of audit findings with PowerShell scripts.</i></b></p><hr>
 
 <h3><b>Technologies:</b></h3>
 
