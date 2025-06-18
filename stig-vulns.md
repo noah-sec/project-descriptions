@@ -14,12 +14,14 @@
 - <b>STIGs</b>: DISA configuration management guidelines (for USDOD system security regulatory compliance)
 - <b>PowerShell</b>: Microsoft script interpreter and CLI/shell (for automation and configuration management)
 - <b>Microsoft Intune Configuration Manager</b>: systems deployment and management (for running scripts on managed endpoints)
+- <b>Azure Virtual Desktop:</b> cloud virtual DaaS (for desktop service delivery standardization and security)
 
 <i>IaaS: infrastructure-as-a-service</i><br>
 <i>STIG: Security Technical Implementation Guide</i><br>
 <i>DISA: Defense Information Systems Agency</i><br>
 <i>USDOD: United States Department of Defense</i><br>
 <i>CLI: command-line interpreter</i>
+<i>DaaS: desktop-as-a-service</i>
 </p>
 <hr>
 
@@ -41,7 +43,7 @@
 
 <h3><b>Business Impact:</b></h3>
 
-<p>{org impact, team impact, enterprise cloud impact, iaas impact, enterprise os impact, vm impact, golden image impact, enterprise vuln scanner impact, disa stig compliance audit impact, system security hardening impact, powershell automation impact}</p><hr>
+<p>{org impact, team impact, enterprise cloud impact, iaas impact, enterprise os impact, vm impact, golden image impact, daas impact, enterprise vuln scanner impact, disa stig compliance audit impact, system security hardening impact, powershell automation impact}</p><hr>
 
 <h3><b>Technical Implementation:</b></h3>
 
@@ -84,11 +86,15 @@
 <p>5. Executed the scripts on the endpoint with Configuration Manager.</p>
 <p>6. Saved a snapshot of the virtual machine.</p>
 <p>7. Generalized the virtual machine with sysprep.</p>
-<p>8. Deployed the golden image virtual machine as a standalone managed image.</p>
+<p>8. Deployed the golden image in Azure Virtual Desktop as a standalone managed image.</p>
 <hr>
 
 <h3><b>References:</b></h3>
 
+<p>Microsoft <a href="https://learn.microsoft.com/en-us/azure/virtual-desktop/set-up-golden-image">guide</a> to creating an Azure Virtual Desktop golden image from a virtual machine.</p>
+<p>Tenable Nessus compliance audit scan <a href="https://docs.tenable.com/nessus/Content/Compliance.htm">documentation</a>.</p>
+<p><a href="https://www.disa.mil/~/media/files/disa/news/conference/cif/briefing/ia_stig_scap_and_data_metrics.pdf">Explanation</a> of DISA STIGs, USDOD requirements for implementation of DISA STIGs, and the STIG development cycle.</p>
+<p>Microsoft <a href="https://learn.microsoft.com/en-us/intune/configmgr/apps/deploy-use/create-deploy-scripts">guide</a> to running scripts on endpoints using Configuration Manager in Microsoft Intune.</p>
 <p>This project was completed as part of an internship as a Cloud Security Engineer.</p><br>
 
 <hr>
