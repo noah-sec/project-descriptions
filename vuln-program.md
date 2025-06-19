@@ -1,37 +1,215 @@
-<!-- ANIMATED TOP BANNER -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=header" alt="header"/>
-
 <!-- TITLE -->
 <h1 align=center>Enterprise Vulnerability Management Program Implementation</h1>
 
 <!-- INTRODUCTION -->
-<p align=center><i><b>Drafted a formal policy, secured stakeholder buy-in, and developed vulnerability management practices for a medium-sized business.</b></i></p>
+<p align=center><i><b>Designed a draft vulnerability management policy, secured stakeholder support, and implemented the final approved policy. Vulnerability Analysis and Resolution Capability</b></i></p><hr>
 
-<hr>
-
-<!-- TECHNOLOGIES -->
 <h3><b>Technologies:</b></h3>
 
-- <b>Microsoft Azure</b> (cloud platform)
-- <b>Tenable Nessus</b> (vulnerability management platform)
-- <b>Windows 10 Pro</b> (virtual machines)
-- <b>PowerShell</b> (scripting language)
+<hr>
+
+<h3><b>Skills:</b></h3>
 
 <hr>
 
-<!-- IMPACT -->
+
 <h3><b>Business Impact:</b></h3>
+using industry standards, building security program and risk management maturity, building maturity in the right order of prioritization, asset management, patch management, configuration management, vulnerabilities, vuln mgmt, vuln mgmt capability component of security program, enterprise vulnerability scanning, 
+<hr>
 
-This project simulates the implementation of a comprehensive enterprise vulnerability management program, from inception to completion.
+<h3><b>Industry Standards and Best Practices:</b></h3>
 
-_**Inception State:**_ the organization has no existing policy or vulnerability management practices in place.
+The organization required the vulnerability management capability component to align with the same standards used to design and implement the rest of the overall security program. These best practices weren't all hard requirements to be implemented entirely, but rather were used collectively to guide and justify security program design decisions.<br><br>
 
-_**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secured, and a full cycle of organization-wide vulnerability remediation is successfully completed.
+<h4><a href="https://www.nist.gov/cyberframework">1. NIST Cybersecurity Framework (CSF):</a></h4>
+<i>A taxonomy of high-level cybersecurity outcomes for a risk management program.</i><br><br>
+
+<b>Risk Governance:</b>
+- <b>Govern (GV):</b> The organization’s cybersecurity risk management strategy, expectations, and policy are established, communicated, and monitored.
+
+<b>Risk Management:</b>
+- <b>Identify (ID):</b> The organization’s current cybersecurity risks are understood.
+- <b>Protect (PR):</b> Safeguards to manage the organization’s cybersecurity risks are used.
+- <b>Detect (DE):</b> Possible cybersecurity attacks and compromises are found and analyzed.
+- <b>Respond (RS):</b> Actions regarding a detected cybersecurity incident are taken.
+- <b>Recover (RC):</b> Assets and operations affected by a cybersecurity incident are restored.
+
+The vulnerability management capability component of a security program plays a part in achieving each of the CSF cybersecurity outcomes, focused mainly around ID and PR. The design and approval of the plan for the vulnerability management capability component is part of GV.<br><br>
+
+<h4><a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">2. NIST SP 800-53 Security and Privacy Controls for Information Systems and Organizations:</a></h4>
+<i>A catalog of security and privacy controls to manage cybersecurity risk.</i><br><br>
+
+<b>Control Categories:</b>
+- <b>Access Control</b>
+- <b>Awareness and Training</b>
+- <b>Audit and Accountability</b>
+- <b>Assessment, Authorization, and Monitoring</b>
+- <b>Configuration Management</b>
+- <b>Contingency Planning</b>
+- <b>Identification and Authentication</b>
+- <b>Incident Response</b>
+- <b>Maintenance</b>
+- <b>Media Protection</b>
+- <b>Physical and Environmental Protection</b>
+- <b>Planning</b>
+- <b>Program Management</b>
+- <b>Personnel Security</b>
+- <b>Personally Identifiable Information Processing and Transparency</b>
+- <b>Risk Assessment</b>
+- <b>System and Services Acquisition</b>
+- <b>System and Communications Protection</b>
+- <b>System and Information Integrity</b>
+- <b>Supply Chain Risk Management</b>
+
+The vulnerability management capability component of a security program is classified in NIST SP 800-53 under the category of Risk Assessment as Control RA-5 - Vulnerability Monitoring and Scanning.
+
+<b>Control RA-5 - Vulnerability Monitoring and Scanning:</b>
+- Monitor and scan for vulnerabilities in the system and hosted applications (Assignment:
+organization-defined frequency and/or randomly in accordance with organization-defined
+process) and when new vulnerabilities potentially affecting the system are identified and
+reported;
+- Employ vulnerability monitoring tools and techniques that facilitate interoperability among
+tools and automate parts of the vulnerability management process by using standards for:
+  - Enumerating platforms, software flaws, and improper configurations;
+  - Formatting checklists and test procedures; and
+  - Measuring vulnerability impact;
+- Analyze vulnerability scan reports and results from vulnerability monitoring;
+- Remediate legitimate vulnerabilities (Assignment: organization-defined response times) in
+accordance with an organizational assessment of risk;
+- Share information obtained from the vulnerability monitoring process and control
+assessments with (Assignment: organization-defined personnel or roles) to help eliminate
+similar vulnerabilities in other systems; and
+- Employ vulnerability monitoring tools that include the capability to readily update the
+vulnerabilities to be scanned.<br><br>
+
+<h4><a href="https://csrc.nist.gov/projects/risk-management/about-rmf">3. NIST Risk Management Framework (RMF):</a></h4>
+<i>A process that integrates security, privacy, and cyber supply chain risk management activities into the system development life cycle.</i><br><br>
+
+<b>RMF Steps:</b>
+- <b>Prepare:</b> Carry out essential activities to help prepare all levels of the organization to manage its security and privacy risks using the RMF.
+- <b>Categorize:</b> Inform organizational risk management processes and tasks by determining the adverse impact with respect to the loss of confidentiality, integrity, and availability of systems and the information processed, stored, and transmitted by those systems
+- <b>Select:</b> Select, tailor, and document the controls necessary to protect the system and organization commensurate with risk.
+- <b>Implement:</b> Implement the controls in the security and privacy plans for the system and organization.
+- <b>Assess:</b> Determine if the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting the security and privacy requirements for the system and the organization.
+- <b>Authorize:</b> Provide  accountability by requiring a senior official to determine if the security and privacy risk based on the operation of a system or the use of common controls, is acceptable.
+- <b>Monitor:</b> Maintain ongoing situational awareness about the security and privacy posture of the system and organization to support risk management decisions.
+
+The vulnerability management capability component of a security program is a security control that was identified as part of the Select RMF step after completing the Categorize step.<br><br>
+
+<h4><a href="https://www.cisecurity.org/controls/v8-1">4. CIS Critical Security Controls:</a></h4>
+<i>Guide for prioritizing implementation of security controls and security program components.</i><br><br>
+
+<b>CIS Controls:</b>
+- <b>Control 1 - Inventory and Control of Enterprise Assets</b>
+- <b>Control 2 - Inventory and Control of Software Assets</b>
+- <b>Control 3 - Data Protection</b>
+- <b>Control 4 - Secure Configuration of Enterprise Assets and Software</b>
+- <b>Control 5 - Account Management</b>
+- <b>Control 6 - Access Control Management</b>
+- <b>Control 7 - Continuous Vulnerability Management</b>
+- <b>Control 8 - Audit Log Management</b>
+- <b>Control 9 - Email and Web Browser Protections</b>
+- <b>Control 10 - Malware Defenses</b>
+- <b>Control 11 - Data Recovery</b>
+- <b>Control 12 - Network Infrastructure Management</b>
+- <b>Control 13 - Network Monitoring and Defense</b>
+- <b>Control 14 - Security Awareness and Skills Training</b>
+- <b>Control 15 - Service Provider Management</b>
+- <b>Control 16 - Application Software Security</b>
+- <b>Control 17 - Incident Response Management</b>
+- <b>Control 18 - Penetration Testing</b>
+
+The vulnerability management capability component of a security program is classified in the CIS Controls as Control 7 - Continuous Vulnerabilty Management. The security program already created capability components for each of the preceding controls (1-6).<br>
+
+<b>Control 7 - Continuous Vulnerabilty Management:</b> Develop a plan to continuously assess and track vulnerabilities on all enterprise assets within the enterprise's infrastructure, in order to remediate, and minimize, the window of opportunity for attackers. Monitor public and private industry sources for new threat and vulnerability information.
+- <b>CIS Safeguards for Control 7:</b>
+  - <b>Safeguard 7.1 - Establish and Maintain a Vulnerability Management Process:</b> Establish and maintain a documented vulnerability management process for enterprise assets. Review and update documentation annually, or when significant enterprise changes occur that could impact this Safeguard.
+    - <b>NIST CSF Function:</b> Govern (GV)
+  - <b>Safeguard 7.2 - Establish and Maintain a Remediation Process:</b> Establish and maintain a risk-based remediation strategy documented in a remediation process, with monthly, or more frequent, reviews.
+    - <b>NIST CSF Function:</b> Govern (GV)
+  - <b>Safeguard 7.3 - Perform Automated Operating System Patch Management:</b> Perform operating system updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.
+    - <b>NIST CSF Function:</b> Protect (PR)
+  - <b>Safeguard 7.4 - Perform Automated Application Patch Management:</b> Perform application updates on enterprise assets through automated patch management on a monthly, or more frequent, basis.
+    - <b>NIST CSF Function:</b> Protect (PR)
+  - <b>Safeguard 7.5 - Perform Automated Vulnerability Scans of Internal Enterprise Assets:</b> Perform automated vulnerability scans of internal enterprise assets on a quarterly, or more frequent, basis. Conduct both authenticated and unauthenticated scans.
+    - <b>NIST CSF Function:</b> Identify (ID)
+  - <b>Safeguard 7.6 - Perform Automated Vulnerability Scans of Externally-Exposed Enterprise Assets:</b> Perform automated vulnerability scans of externally-exposed enterprise assets. Perform scans on a monthly, or more frequent, basis.
+    - <b>NIST CSF Function:</b> Identify (ID)
+  - <b>Safeguard 7.7 - Remediate Detected Vulnerabilities:</b> Remediate detected vulnerabilities in software through processes and tooling on a monthly, or more frequent, basis, based on the remediation process.
+    - <b>NIST CSF Function:</b> Respond (RS)
+<br><br>
+
+<h4><a href="https://www.cisecurity.org/controls/v8-1">5. DOE Cybersecurity Program Maturity Model (C2M2):
+A guide to developing and measuring maturity of individual program capability components.<br><br>
+
+DOD Cybersecurity Maturity Model Certification (CMMC):
+guide timeline and degree of standards implementation depending on type and sensitivity of controlled information
+
+NIST SP 800-171 Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations:
+recommended security requirements for protecting the confidentiality of controlled information
+
+NIST SP 800-171A Assessing Security Requirements for Controlled Unclassified Information:
+assessment procedures and a methodology that can be used to conduct assessments of the
+security requirements in NIST SP 800-171
+
+NIST SP 1800-5 IT Asset Management:
+example solution to guide tracking of location and configuration of assets
+
+NIST SP 800-40 Guide to Enterprise Patch Management Planning:
+guide to improve enterprise patch management planning to strengthen risk management
+
+NIST SP 800-128 Guide for Security-Focused Configuration Management of Information Systems:
+guide to implementation of the information system security aspects of configuration management
+
+Microsoft Cloud Security Benchmarks (MCSB):
+prescriptive best practices and recommendations to help improve the security of workloads, data, and services on Azure and multi-cloud environment
+
+CIS Benchmarks:
+prescriptive configuration recommendations to help protect systems against threats
+
+DISA Security Technical Implementation Guides (STIGs):
+best practices and regulatory compliance, bridges the gap between NIST SP 800-53 and NIST RMF
+
+<h4><a href="https://insights.sei.cmu.edu/library/cert-resilience-management-model-cert-rmm-version-12/">CERT Resilience Management Model (CERT-RMM):</a></h4>
+<i>Defines the essential organizational practices that are necessary to manage operational resilience.</i><br><br>
+
+<b>Vulnerability Analysis and Resolution (VAR) Goals and Practices:</b>
+- <b>Prepare for Vulnerability Analysis and Resolution:</b> Preparation for vulnerability analysis and resolution activities is conducted.
+  - <b>Establish Scope:</b> The assets and operational environments that must be examined for vulnerabilities are identified.
+  - <b>Establish a Vulnerability Analysis and Resolution Strategy:</b> An operational vulnerability analysis and resolution strategy is established and maintained.
+- <b>Identify and Analyze Vulnerabilities:</b> A process for identifying and analyzing vulnerabilities is established and maintained.
+  - <b>Identify Sources of Vulnerability Information:</b> The sources of vulnerability information are identified.
+  - <b>Discover Vulnerabilities:</b> A process is established to actively discover vulnerabilities.
+  - <b>Analyze Vulnerabilities:</b> Vulnerabilities are analyzed to determine whether they have to be reduced or eliminated.
+- <b>Manage Exposure to Vulnerabilities:</b> Strategies are developed to manage exposure to identified vulnerabilities.
+  - <b>Manage Exposure to Vulnerabilities:</b> Strategies are developed and implemented to manage exposure to identified vulnerabilities.
+- <b>Identify Root Causes:</b> The root causes of vulnerabilities are examined to improve vulnerability analysis and resolution and reduce organizational exposure.
+  - <b>Perform Root-Cause Analysis:</b> A review of identified vulnerabilities is performed to determine and address underlying causes.
+
+The vulnerability management capability component of the security program was designed and planned referencing these goals and practices.<br><br>
+
+CISA Cyber Resilience Review (CRR) Supplemental Resource Guides, Volume 4 Vulnerability Management:
+A guide to set up a vulnerability management program that aligns to CERT-RMM goals and practices.
+
+NIST SP 800-181 Workforce Framework for Cybersecurity (NICE Framework):
+guide to the job role around vulnerability analysis
+
+MITRE Common Vulnerabilities and Exposures (CVE):
+identify, define, and catalog publicly disclosed cybersecurity vulnerabilities
+
+MITRE Common Weakness Enumeration (CWE):
+list of common software and hardware weakness types that could have security ramifications
+(a “weakness” is a condition in a software, firmware, hardware, or service component that, under certain circumstances, could contribute to the introduction of vulnerabilities)
+
+NIST National Vulnerability Database (NVD):
+performs enrichment on CVEs that have been published to the CVE List
+
+Common Vulnerability Scoring System (CVSS):
+provides a way to capture the principal characteristics of a vulnerability and produce a numerical score reflecting its severity
 
 <hr>
 
-<!-- CONTENTS -->
-<h3><b>Contents:</b></h3>
+<h3><b>Technical Implementation:</b></h3>
 
 1. [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
 2. [Mock Meeting with Stakeholders - Policy Buy-In](#step-2-mock-meeting-policy-buy-in-stakeholders)
@@ -156,42 +334,8 @@ By maintaining an active vulnerability management process, organizations can sta
 
 <hr>
 
-<!-- IMPACT 
-<h3><b>Business Impact:</b></h3>
-
-<p>This project documentation is currently under construction.</p>
-<hr>-->
-
-<!-- ARCHITECTURE 
-<h3><b>Technical Architecture:</b></h3>
-
-<p>This project documentation is currently under construction.</p>
-<hr>-->
-
-<!-- IMPLEMENTATION 
-<h3><b>Technical Implementation:</b></h3>
-
-<p>
-</p>
-<hr>-->
-
-<!-- TESTING 
-### Testing and Validation-->
-
-<!-- LESSONS 
-### Lessons Learned-->
-
-<!-- IMPROVEMENTS 
-### Future Improvements-->
-
-<!-- REFERENCES -->
 <h3><b>References:</b></h3>
 
-<p>This project was completed as part of an internship as a Cybersecurity Support Engineer.</p>
-
-<hr>
+<p>This project was completed as part of an internship as a Cloud Security Engineer.</p><hr>
 
 <div align=center><a href="https://github.com/noah-sec">Return to main projects page</a></div>
-
-<!-- ANIMATED BOTTOM BANNER -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=450a0a&height=120&section=footer" alt="footer"/>
