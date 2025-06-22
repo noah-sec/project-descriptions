@@ -21,7 +21,7 @@ using industry standards, building security program and risk management maturity
 
 The organization required the vulnerability management capability component to align with the same standards used to design and implement the rest of the overall security program. These best practices weren't all hard requirements to be implemented entirely, but rather were used collectively to guide and justify security program design decisions.<br><br>
 
-<h4><a href="https://www.nist.gov/cyberframework">1. NIST Cybersecurity Framework (CSF):</a></h4>
+<h4>1. <a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework (CSF):</a></h4>
 <i>A taxonomy of high-level cybersecurity outcomes for a risk management program.</i><br><br>
 
 <b>Risk Governance:</b>
@@ -34,9 +34,9 @@ The organization required the vulnerability management capability component to a
 - <b>Respond (RS):</b> Actions regarding a detected cybersecurity incident are taken.
 - <b>Recover (RC):</b> Assets and operations affected by a cybersecurity incident are restored.
 
-The vulnerability management capability component of a security program plays a part in achieving each of the CSF cybersecurity outcomes, focused mainly around ID and PR. The design and approval of the plan for the vulnerability management capability component is part of GV.<br><br>
+The vulnerability management capability component of the security program aligns with each of the CSF cybersecurity outcomes, focused mainly around ID and PR. The design and approval of the plan for the vulnerability management capability component aligns with GV.<br><br>
 
-<h4><a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">2. NIST SP 800-53 Security and Privacy Controls for Information Systems and Organizations:</a></h4>
+<h4>2. <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53 Security and Privacy Controls for Information Systems and Organizations:</a></h4>
 <i>A catalog of security and privacy controls to manage cybersecurity risk.</i><br><br>
 
 <b>Control Categories:</b>
@@ -61,28 +61,22 @@ The vulnerability management capability component of a security program plays a 
 - <b>System and Information Integrity</b>
 - <b>Supply Chain Risk Management</b>
 
-The vulnerability management capability component of a security program is classified in NIST SP 800-53 under the category of Risk Assessment as Control RA-5 - Vulnerability Monitoring and Scanning.
+The vulnerability management capability component of the security program aligns with NIST SP 800-53 under the category of Risk Assessment as Control RA-5 - Vulnerability Monitoring and Scanning.
 
 <b>Control RA-5 - Vulnerability Monitoring and Scanning:</b>
-- Monitor and scan for vulnerabilities in the system and hosted applications (Assignment:
-organization-defined frequency and/or randomly in accordance with organization-defined
-process) and when new vulnerabilities potentially affecting the system are identified and
-reported;
-- Employ vulnerability monitoring tools and techniques that facilitate interoperability among
-tools and automate parts of the vulnerability management process by using standards for:
+- Monitor and scan for vulnerabilities in the system and hosted applications (Assignment: organization-defined frequency and/or randomly in accordance with organization-defined process) and when new vulnerabilities potentially affecting the system are identified and reported;
+- Employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:
   - Enumerating platforms, software flaws, and improper configurations;
   - Formatting checklists and test procedures; and
   - Measuring vulnerability impact;
 - Analyze vulnerability scan reports and results from vulnerability monitoring;
-- Remediate legitimate vulnerabilities (Assignment: organization-defined response times) in
-accordance with an organizational assessment of risk;
-- Share information obtained from the vulnerability monitoring process and control
-assessments with (Assignment: organization-defined personnel or roles) to help eliminate
-similar vulnerabilities in other systems; and
-- Employ vulnerability monitoring tools that include the capability to readily update the
-vulnerabilities to be scanned.<br><br>
+- Remediate legitimate vulnerabilities (Assignment: organization-defined response times) in accordance with an organizational assessment of risk;
+- Share information obtained from the vulnerability monitoring process and control assessments with (Assignment: organization-defined personnel or roles) to help eliminate similar vulnerabilities in other systems; and
+- Employ vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned.
 
-<h4><a href="https://csrc.nist.gov/projects/risk-management/about-rmf">3. NIST Risk Management Framework (RMF):</a></h4>
+The vulnerability management capability component of the security program fulfills the requirements for this control.<br><br>
+
+<h4>3. <a href="https://csrc.nist.gov/projects/risk-management/about-rmf">NIST Risk Management Framework (RMF):</a></h4>
 <i>A process that integrates security, privacy, and cyber supply chain risk management activities into the system development life cycle.</i><br><br>
 
 <b>RMF Steps:</b>
@@ -94,9 +88,9 @@ vulnerabilities to be scanned.<br><br>
 - <b>Authorize:</b> Provide  accountability by requiring a senior official to determine if the security and privacy risk based on the operation of a system or the use of common controls, is acceptable.
 - <b>Monitor:</b> Maintain ongoing situational awareness about the security and privacy posture of the system and organization to support risk management decisions.
 
-The vulnerability management capability component of a security program is a security control that was identified as part of the Select RMF step after completing the Categorize step.<br><br>
+The vulnerability management capability component of the security program is a security control that was identified as part of the Select RMF step after completing the Categorize step. The full implementation of the component includes the Implement, Assess, Authorize, and Monitor steps.<br><br>
 
-<h4><a href="https://www.cisecurity.org/controls/v8-1">4. CIS Critical Security Controls:</a></h4>
+<h4>4. <a href="https://www.cisecurity.org/controls/v8-1">CIS Critical Security Controls:</a></h4>
 <i>Guide for prioritizing implementation of security controls and security program components.</i><br><br>
 
 <b>CIS Controls:</b>
@@ -119,7 +113,7 @@ The vulnerability management capability component of a security program is a sec
 - <b>Control 17 - Incident Response Management</b>
 - <b>Control 18 - Penetration Testing</b>
 
-The vulnerability management capability component of a security program is classified in the CIS Controls as Control 7 - Continuous Vulnerabilty Management. The security program already created capability components for each of the preceding controls (CIS Control 1-6) as prerequisites to Control 7.<br>
+The vulnerability management capability component of a security program is classified in the CIS Controls as Control 7 - Continuous Vulnerabilty Management. The security program already created capability components for each of the preceding controls (CIS Control 1-6) as prerequisites to Control 7.
 
 <b>Control 7 - Continuous Vulnerabilty Management:</b> Develop a plan to continuously assess and track vulnerabilities on all enterprise assets within the enterprise's infrastructure, in order to remediate, and minimize, the window of opportunity for attackers. Monitor public and private industry sources for new threat and vulnerability information.
 - <b>CIS Safeguards for Control 7:</b>
@@ -140,7 +134,7 @@ The vulnerability management capability component of a security program is class
    
 The vulnerability management capability component of the security program was designed to address each of these safeguards. The design and policy creation of the component aligns with CIS Safeguard 7.1.<br><br>
 
-<h4><a href="https://www.energy.gov/c2m2">5. DOE Cybersecurity Program Maturity Model (C2M2):</a></h4>
+<h4>5. <a href="https://www.energy.gov/c2m2">DOE Cybersecurity Program Maturity Model (C2M2):</a></h4>
 <i>A guide to developing and measuring maturity of individual program capability components.</i><br><br>
 
 <b>C2M2 Maturity Indicator Levels (MIL):</b>
@@ -200,7 +194,7 @@ These maturity indicator levels were used to assess and communicate the degree o
 
 Implementing the vulnerability management capability component of the security program moved the organization from MIL1 to MIL3 in the THREAT Domain - Objectives and Practices - Reduce Cybersecurity Vulnerabilities.<br><br>
 
-<h4><a href="https://dodcio.defense.gov/cmmc/">6. DOD Cybersecurity Maturity Model Certification (CMMC):</a></h4>
+<h4>6. <a href="https://dodcio.defense.gov/cmmc/">DOD Cybersecurity Maturity Model Certification (CMMC):</a></h4>
 <i>A guide for the timeline and degree of standards implementation depending on type and sensitivity of controlled information.</i><br><br>
 
 <b>CMMC Levels:</b> CMMC requires companies entrusted with sensitive unclassified DoD information to implement cybersecurity standards at progressively advanced levels, depending on the type and sensitivity of the information.
@@ -211,7 +205,7 @@ Implementing the vulnerability management capability component of the security p
 - <b>Level 3:</b>
   - <b>Higher-Level Protection of CUI Against Advanced Persistent Threats:</b> Provide an annual affirmation verifying compliance with the 24 identified requirements from NIST SP 800-172
  
-The vulnerability management capability component of the security program aligns with CMMC Level 2 requirements for NIST SP 800-171 under the Risk Assessment category under the Vulnerability Monitoring and Scanning subcategory. Extra security requirements for Level 3 don't fall under the scope of this program component.
+The vulnerability management capability component of the security program aligns with CMMC Level 2 requirements for NIST SP 800-171 under the Risk Assessment category under the Vulnerability Monitoring and Scanning subcategory. Extra security requirements for Level 3 (NIST SP 800-172) don't fall under the scope of this program component.
 
 <b>CMMC Phases:</b> CMMC assessment requirements will be implemented using a four-phase plan over three years. The phases add CMMC Level requirements incrementally, starting with self-assessments in Phase 1 and ending with full implementation of program requirements in Phase 4.
 - <b>Phase 1:</b>
@@ -266,7 +260,7 @@ These requirements were considered in the implementation of the overall security
 
 The vulnerability management capability component of the security program broadly fulfills the SP 800-171 requirements for Risk Assessment - Vulnerability Monitoring and Scanning.<br><br>
 
-<h4><a href="https://csrc.nist.gov/pubs/sp/800/171/a/r3/final">8. NIST SP 800-171A Assessing Security Requirements for Controlled Unclassified Information:</a></h4>
+<h4>8. <a href="https://csrc.nist.gov/pubs/sp/800/171/a/r3/final">NIST SP 800-171A Assessing Security Requirements for Controlled Unclassified Information:</a></h4>
 <i>Assessment procedures and a methodology that can be used to conduct assessments of the security requirements in NIST SP 800-171.</i><br><br>
 
 <b>Assessment Objective:</b> Determine if...
@@ -293,38 +287,69 @@ remediation; mechanisms for supporting or implementing vulnerability monitoring,
 
 The vulnerability management capability component of the security program was assessed to align with overall program objectives through the SP 800-171A methods and objects.<br><br>
 
-<h4><a href="">9. NIST SP 1800-5 IT Asset Management:</a></h4>
+<h4>9. <a href="">NIST SP 1800-5 IT Asset Management:</a></h4>
 <i>An example solution to guide tracking of location and configuration of assets.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of asset management as a prerequisite according to the CIS Controls (Controls 1 and 2). These controls enabled the component to manage vulnerabilities across the maximum amount of discovered and tracked sources.
+The vulnerability management capability component of the security program required an established degree of asset management as a prerequisite according to the CIS Controls (Controls 1 and 2). These controls enabled the component to manage vulnerabilities across the maximum amount of discovered and tracked sources.<br><br>
 
-<h4><a href="">10. NIST SP 800-40 Guide to Enterprise Patch Management Planning:</a></h4>
+<h4>10. <a href="">NIST SP 800-40 Guide to Enterprise Patch Management Planning:</a></h4>
 <i>A guide to improving enterprise patch management planning to strengthen risk management.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of patch management as a prerequisite according to the CIS Controls (Controls 1 and 2). These controls help proactively prevent vulnerabilities based on a system missing important security updates.
+The vulnerability management capability component of the security program required an established degree of patch management as a prerequisite according to the CIS Controls (Controls 1 and 2). These controls help proactively prevent vulnerabilities based on a system missing important security updates.<br><br>
 
-<h4><a href="">11. NIST SP 800-128 Guide for Security-Focused Configuration Management of Information Systems:</a></h4>
+<h4>11. <a href="">NIST SP 800-128 Guide for Security-Focused Configuration Management of Information Systems:</a></h4>
 <i>A guide to implementing the information system security aspects of configuration management.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of configuration management as a prerequisite according to the CIS Controls (Control 4). This control helps proactively prevent vulnerabilities based on system misconfigurations.
+The vulnerability management capability component of the security program required an established degree of configuration management as a prerequisite according to the CIS Controls (Control 4). This control helps proactively prevent vulnerabilities based on system misconfigurations.<br><br>
 
-<h4><a href="">12. Microsoft Cloud Security Benchmarks (MCSB):</a></h4>
+<h4>12. <a href="">Microsoft Cloud Security Benchmarks (MCSB):</a></h4>
 <i>Prescriptive best practices and recommendations to help improve the security of workloads, data, and services on Azure and multi-cloud environment.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). The program is largely focused on assets in Microsoft Azure cloud. System hardening of Azure resources helps proactively prevent vulnerabilities based on default configurations.
+The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). The program is largely focused on assets in Microsoft Azure cloud. System hardening of Azure resources helps proactively prevent vulnerabilities based on default configurations.<br><br>
 
-<h4><a href="">13. CIS Benchmarks:</a></h4>
+<h4>13. <a href="">CIS Benchmarks:</a></h4>
 <i>Prescriptive configuration recommendations to help protect systems against threats.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). CIS Benchmarks cover multiple systems under the program including Microsoft Windows 10 Enterprise and Microsoft Azure Cloud. System hardening of Microsoft resources helps proactively prevent vulnerabilities based on default configurations.
+The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). CIS Benchmarks cover multiple systems under the program including Microsoft Windows 10 Enterprise and Microsoft Azure Cloud. System hardening of Microsoft resources helps proactively prevent vulnerabilities based on default configurations.<br><br>
 
-<h4><a href="">14. DISA Security Technical Implementation Guides (STIGs):</a></h4>
+<h4>14. <a href="">DISA Security Technical Implementation Guides (STIGs):</a></h4>
 <i>Guides for system security hardening best practices and regulatory compliance, bridging the gap between NIST SP 800-53 and NIST RMF.</i><br><br>
 
-The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). DISA STIGs cover multiple systems under the program including Microsoft Windows 10 Enterprise, Microsoft Defender for Endpoint, and Microsoft Entra ID. System hardening of Microsoft resources helps proactively prevent vulnerabilities based on default configurations.
+The vulnerability management capability component of the security program required an established degree of system security hardening as a prerequisite according to the CIS Controls (multiple controls). DISA STIGs cover multiple systems under the program including Microsoft Windows 10 Enterprise, Microsoft Defender for Endpoint, and Microsoft Entra ID. System hardening of Microsoft resources helps proactively prevent vulnerabilities based on default configurations.<br><br>
 
-<h4><a href="https://insights.sei.cmu.edu/library/cert-resilience-management-model-cert-rmm-version-12/">15. CERT Resilience Management Model (CERT-RMM):</a></h4>
+<h4>15. <a href="https://insights.sei.cmu.edu/library/cert-resilience-management-model-cert-rmm-version-12/">CERT Resilience Management Model (CERT-RMM):</a></h4>
 <i>Defines the essential organizational practices that are necessary to manage operational resilience.</i><br><br>
+
+<b>CERT-RMM Goals and Practices:</b>
+- <b>Asset Definition and Management (ADM)</b>
+- <b>Access Management (AM)</b>
+- <b>Communications (COMM)</b>
+- <b>Compliance (COMP)</b>
+- <b>Controls Management (CTRL)</b>
+- <b>Environmental Control (EC)</b>
+- <b>Enterprise Focus (EF)</b>
+- <b>External Dependencies Management (EXD)</b>
+- <b>Financial Resource Management (FRM)</b>
+- <b>Human Resource Management (HRM)</b>
+- <b>Identity Management (ID)</b>
+- <b>Incident Management and Control (IMC)</b>
+- <b>Knowledge and Information Management (KIM)</b>
+- <b>Measurement and Analysis (MA)</b>
+- <b>Monitoring (MON)</b>
+- <b>Organizational Process Definition (OPD)</b>
+- <b>Organizational Process Focus (OPF)</b>
+- <b>Organizational Training and Awareness (OTA)</b>
+- <b>People Management (PM)</b>
+- <b>Risk Management (RISK)</b>
+- <b>Resilience Requirements Development (RRD)</b>
+- <b>Resilience Requirements Management (RRM)</b>
+- <b>Resilient Technical Solution Engineering (RTSE)</b>
+- <b>Service Continuity (SC)</b>
+- <b>Technology Management (TM)</b>
+- <b>Vulnerability Analysis and Resolution (VAR)</b>
+- <b>Generic Goals and Practices</b>
+
+The vulnerability management capability component of the security program aligns with the Vulnerability Analysis and Resolution (VAR) CERT-RMM goals and practices category.
 
 <b>Vulnerability Analysis and Resolution (VAR) Goals and Practices:</b>
 - <b>Prepare for Vulnerability Analysis and Resolution:</b> Preparation for vulnerability analysis and resolution activities is conducted.
@@ -339,25 +364,25 @@ The vulnerability management capability component of the security program requir
 - <b>Identify Root Causes:</b> The root causes of vulnerabilities are examined to improve vulnerability analysis and resolution and reduce organizational exposure.
   - <b>Perform Root-Cause Analysis:</b> A review of identified vulnerabilities is performed to determine and address underlying causes.
 
-The vulnerability management capability component of the security program was designed and planned referencing these goals and practices.<br><br>
+The vulnerability management capability component of the security program was designed and implemented to fulfill the VAR goals and practices.<br><br>
 
-<h4><a href="">16. CISA Cyber Resilience Review (CRR) Supplemental Resource Guides, Volume 4 Vulnerability Management:</a></h4>
-A guide to set up a vulnerability management program that aligns to CERT-RMM goals and practices.
+<h4>16. <a href="">CISA Cyber Resilience Review (CRR) Supplemental Resource Guides, Volume 4 Vulnerability Management:</a></h4>
+<i>A guide to set up a vulnerability management program that aligns with the CERT-RMM goals and practices.</i><br><br>
 
-<h4><a href="">17. NIST SP 800-181 Workforce Framework for Cybersecurity (NICE Framework):</a></h4>
+<h4>17. <a href="">NIST SP 800-181 Workforce Framework for Cybersecurity (NICE Framework):</a></h4>
 guide to the job role around vulnerability analysis
 
-<h4><a href="">18. MITRE Common Vulnerabilities and Exposures (CVE):</a></h4>
+<h4>18. <a href="">MITRE Common Vulnerabilities and Exposures (CVE):</a></h4>
 identify, define, and catalog publicly disclosed cybersecurity vulnerabilities
 
-<h4><a href="">19. MITRE Common Weakness Enumeration (CWE):</a></h4>
+<h4>19. <a href="">MITRE Common Weakness Enumeration (CWE):</a></h4>
 list of common software and hardware weakness types that could have security ramifications
 (a “weakness” is a condition in a software, firmware, hardware, or service component that, under certain circumstances, could contribute to the introduction of vulnerabilities)
 
-<h4><a href="">20. NIST National Vulnerability Database (NVD):</a></h4>
+<h4>20. <a href="">NIST National Vulnerability Database (NVD):</a></h4>
 performs enrichment on CVEs that have been published to the CVE List
 
-<h4><a href="">21. Common Vulnerability Scoring System (CVSS):</a></h4>
+<h4>21. <a href="">Common Vulnerability Scoring System (CVSS):</a></h4>
 provides a way to capture the principal characteristics of a vulnerability and produce a numerical score reflecting its severity
 
 <hr>
